@@ -1,0 +1,195 @@
+*{
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.header{
+    margin-top: 20px;
+    text-align: center;
+}
+.menu{
+    margin: 30px 10px;
+    padding: 10px;
+    text-align: center;
+    background-color: #35A29F;
+    color: white;
+    border-bottom: solid 4px #97FEED;
+    border-radius: 4px;
+    font-weight: bolder;
+}
+.content{
+    margin: 40px 10px;
+    border: solid 4px #35A29F;
+    border-radius: 4px;
+}
+#keliling-segitiga {
+    display: none;
+}
+.head{
+    padding: 30px 0px;
+    background-color: #35A29F;
+    color: white;
+    text-align: center;
+    font-size: 36px;
+}
+.gambar{
+    padding: 20px 0px;
+    text-align: center;
+}
+.rumus-luas{
+    text-align: left;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 20px;
+    border-bottom: solid 2px #35A29F;
+    font-size: medium;
+}
+.rumus-keliling{
+    text-align: left;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 20px;
+    border-bottom: solid 2px #35A29F;
+    font-size: medium;
+}
+#rumus-luas-inti{
+    margin: auto;
+    text-align: center;
+    font-weight: bold;
+    padding: 6px 0px;
+}
+#rumus-keliling-inti{
+    margin: auto;
+    text-align: center;
+    font-weight: bold;
+    padding: 6px 0px;
+}
+.hitung{
+    text-align: center;
+    font-size: 36px;
+    padding: 30px 0px;
+}
+label{
+    align-self: center;
+    font-size: medium;
+    white-space: nowrap;
+    margin-left: 15px;
+}
+.input{
+    display: flex;
+    flex-direction: column;
+}
+.inputan {
+    display: flex;
+    flex-direction: row;
+    gap: 6px;
+    justify-content: center;
+    margin-right: 15px;
+}
+@media (max-width: 830px) {
+    label {
+        align-self: normal;
+        margin-left: 0;
+    }
+    .inputan {
+        flex-direction: column;
+        margin-right: 0;
+    }
+}
+input{
+    font-size: 16px;
+    padding: 4px;
+}
+input[type="number"]{
+    border: solid 2px #9DB2BF;
+    border-radius: 6px;
+}
+input[type="number"]:hover{
+    border-color: #071952;
+}
+input[type="number"]:focus{
+    outline: none;
+    border-color: #35A29F;
+}
+.tombol{
+    margin-top: 20px;
+    text-align: center;
+}
+.tombol-submit{
+    font-size: large;
+    padding: 16px 20px;
+    border: 2px solid #071952;
+    border-radius: 4px;
+    background-color: #071952;
+    color: white;
+    cursor: pointer;
+}
+.tombol-submit:hover{
+    background-color: #0B666A;
+    border-color: #97FEED;
+}
+.tombol-reset{
+    margin-left: 10px;
+    padding: 10px;
+    border: solid 1px #FCE700;
+    border-radius: 4px;
+    background-color: #FD841F;
+    color: white;
+    cursor: pointer;
+}
+.tombol-reset:hover{
+    background-color: #fdbb06;
+    color: #a14f0b;
+}
+input[type="button"]:active{
+    transform: translateY(2px);
+}
+
+input[type="reset"]:active{
+    transform: translateY(2px);
+}
+.hasil{
+    display: none;
+}
+#hasil-luas-segitiga{
+    margin-top: 10px;
+    border: solid 2px #9DB2BF;
+    border-radius: 6px;
+    padding: 10px 4px;
+    text-align: left;
+    display: none;
+}
+#hasil-keliling-segitiga{
+    margin-top: 10px;
+    border: solid 2px #9DB2BF;
+    border-radius: 6px;
+    padding: 10px 4px;
+    text-align: left;
+    display: none;
+}
+button {
+    font-size: medium;
+    padding: 3px 7px;
+    background-color: #9DB2BF;
+    border: none;
+    color: green;
+}
+button:hover {
+    background-color: #bcd6e6;
+    color: rgb(9, 170, 9);
+}
+.pindah {
+    margin-top: 30px;
+}
+#ganti {
+    font-size: medium;
+    padding: 2px 7px 5px 7px;
+    background-color: #9DB2BF;
+    border: none;
+    color: green;
+}
+#ganti:hover {
+    background-color: #bcd6e6;
+    color: rgb(9, 170, 9);
+}
